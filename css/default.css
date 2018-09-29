@@ -1,0 +1,281 @@
+html{
+  padding: 0;
+}
+
+.row{
+  width: 100%;
+  margin: 0;
+}
+
+.first-wrapper{
+  width: 100%;
+  margin:0;
+}
+
+.friendlink-top{
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1;
+  top:0;
+  width:100%;
+  margin: 0;
+  padding-bottom: 0.6rem;
+  padding-top: 0.1rem;
+  background-color: black;
+}
+
+.friendlink-top p, a{
+  margin: 0;
+  margin-left: 0.5rem;
+  font-size: 1.9rem;
+  color: white;
+  text-decoration:none !important;
+}
+.friendlink-top a:hover{
+  color: white;
+}
+
+.slogan1-top{
+  padding-top: 7rem;
+}
+
+.slogan2-top{
+  padding-top: 5rem;
+}
+
+.slogan3-top{
+  padding-top: 6rem;
+}
+
+.slogan1-top2{
+  padding-top: 12rem;
+  font-size: 2.5rem;
+}
+
+.slogan2-top2{
+  padding-top: 3rem;
+  font-size: 3rem;
+}
+
+.intro-text-title{
+  margin-top: 4rem;
+}
+
+.intro-text-title p{
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.intro-test-content{
+  overflow: hidden;
+}
+
+.intro-test-content{
+  font-size: 1.2rem;
+}
+
+.slogans-top{
+  height: 43rem;
+  width: 100%;
+  margin: 0;
+  background-color: #1C1C1C;
+  color: white;
+  font-size: 2.2rem;
+}
+.slogans-top p{
+  margin-bottom: 0;
+}
+
+
+.slogan3-top p{
+  margin-top: 2.3rem;
+}
+
+.slogan-big p{
+  font-size: 4rem;
+  margin-top: 0;
+}
+
+.slogans-top2-bg{
+  height: 43rem;
+  width: 100%;
+  margin: 0;
+  background-image: url(../pic/pic1.gif);
+  background-size: cover;
+  color: black;
+  font-size: 1.7rem;
+}
+.slogans-top2{
+  margin: 0;
+  height: 45rem;
+  width: 100%;
+  background-color: rgba(255,255,255,0.6);
+  color: black;
+  font-size: 1.7rem;
+}
+
+.on-bottom{
+  display:inline-block;
+  display: -webkit-inline-box;
+  vertical-align:bottom;
+  float: none;
+}
+
+.intro{
+  height: 45rem;
+}
+
+.service{
+  height: 45rem;
+}
+
+.service-categories{
+  padding-top: 3rem;
+}
+
+.service-categories p{
+  font-size: 1.3rem;
+}
+
+.service-welcome{
+  padding-top: 4rem;
+}
+
+.service-welcome p{
+  font-size: 1.3rem;
+}
+
+.contact{
+  height: 45rem;
+}
+
+.contact-info{
+  font-size: 1.2rem;
+  padding-top: 3rem;
+}
+
+.works{
+  height: 48rem;
+}
+
+.intro-side{
+  margin:0;
+  padding: 0;
+  overflow:hidden;
+}
+
+.full-height{
+  height: 100%;
+}
+
+.intro-side-pic{
+  text-align: right;
+  height: 15rem;
+}
+
+.slogans-middle{
+  height: auto;
+}
+
+.slogans-middle-bg{
+  position: sticky;
+  top: 0;
+  background-image: url(../pic/pic3.gif);
+  background-size: cover;
+  width: 100%;
+  margin: 0;
+  height: 46rem;
+}
+
+.slogans-middle-bg2{
+  position: sticky;
+  top: 0;
+  background-image: url(../pic/pic4.gif);
+  background-size: cover;
+  width: 100%;
+  margin: 0;
+  height: 46rem;
+}
+
+.slogan-middle{
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1.7rem;
+  text-align: left;
+  background-color: rgba(25,25,25,0.9);
+}
+
+.slogan-middle-1{
+  position: relative;
+  top: -80vh;
+
+}
+
+.slogan-middle-2{
+  position: relative;
+  top: -30vh;
+
+}
+.slogan-middle-middle{
+  margin-top: 80vh;
+}
+
+.slogan-middle-end{
+  margin-top: 80vh;
+  margin-bottom: 50vh;
+}
+
+.slogan-middle p {
+  margin: 0;
+}
+
+.top-back{
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.top-back p{
+  text-decoration: none;
+  color: black;
+}
+
+.arrow{
+  height: 2.5rem;
+}
+
+.work-display{
+  height: 12rem;
+  outline: 2rem;
+  border: 0.3rem solid;
+  border-color: white;
+  padding:0.5rem;
+
+}
+
+
+.blue-border{
+  background: blue;
+  box-shadow:0 0 0 1.5rem blue ;
+}
+.green-border{
+  background: green;
+  box-shadow:0 0 0 1.5rem green ;
+}
+.yellow-border{
+  background: yellow;
+  box-shadow:0 0 0 1.5rem yellow ;
+}
+.work-display-pic{
+  height: 100%;
+}
+/*
+.slogan-top p{
+  color: white;
+  font-size: 1.7rem;
+}*/
+
+.@media (max-wdith:575px) {
+  .slogans-top p{
+    margin-left: 1.7rem;
+  }
+}
